@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Food Hut - Best Restaurant in Rohtak</title>
+    <link rel="icon" type="image/x-icon" href="log.jpg">
+    <link rel="stylesheet" href="index.css">
+    <!-- for icons  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body id="bdy">
+
+    <div class="container" id="a">
+
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Reset password</span>
+
+                <form action="/">
+                    <div class="input-field">
+                        <input type="text" autocomplete="off" id="txtEmail" placeholder="Enter your email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+
+                        <input type="password" class="password" id="txtPhone" placeholder="new password" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" id="txtPhone" placeholder="Confirm password" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div> <br>
+                    <button id="bttn" onclick={store()} class="btn-primary">Save</button>
+                      <div>
+                    <div class="login-signup">
+                        <span class="text">Back To Login Page?
+                            <a href="login.html"  class="text signup-link">Login</a>
+                        </span>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        
+        function store()
+        {
+            
+             alert("Change Password Sucessfully")
+           
+        }
+    </script>
+</body>
+
+</html>
+
